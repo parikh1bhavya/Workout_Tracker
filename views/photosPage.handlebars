@@ -1,0 +1,20 @@
+
+{{> header}}
+
+<main class="photo-page">
+
+  <div class="title-container">
+    <h1>Exercise of {{name}}</h1>
+  </div>
+
+  <div class="photo-card-container">
+
+    {{#each photos}}
+      {{> photoCard}}
+    {{/each}}
+
+  </div>
+
+</main>
+
+{{> addPhotoModal}}
