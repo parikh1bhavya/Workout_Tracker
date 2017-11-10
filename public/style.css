@@ -1,0 +1,263 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-color: #dadada;
+}
+
+header {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #03a9f4;
+}
+
+a:hover {
+  color: #0c719e;
+}
+
+.site-title {
+  margin: 0;
+  padding: 20px;
+}
+
+.weeks-grid {
+  display: inline-block;;
+}
+
+.navbar {
+  font-size: 22px;
+  background-color: #fff;
+}
+
+.navlist {
+  margin: 0;
+}
+
+.navitem {
+  display: inline-block;
+}
+
+.navitem:hover {
+  background-color: rgba(231, 132, 119, 0.18);
+}
+
+.navitem a {
+  display: inline-block;
+  color: #454545;
+  padding: 10px 20px;
+}
+
+.navitem.right {
+  float: right;
+}
+
+.photo-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.photo-card {
+  flex: 1 32%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align:center;
+  margin: 5px;
+  max-width: 45%;
+  height: 60px;
+}
+
+.person-photo-img {
+  max-height: 300px;
+}
+
+.error-page {
+  text-align: center;
+}
+
+.error-page h2 {
+  font-weight: 100;
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+.error-page h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.home-page .icon {
+  display: inline-block;
+  margin: 40px;
+  font-size: 192px;
+  color: #454545;
+}
+
+.title-container {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+}
+
+.title-container h1 {
+  margin: 20px 0;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.title-container h2 {
+  margin: 10px 0;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.person-card {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 28px;
+}
+
+#add-photo-button {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  z-index: 10;
+  width: 64px;
+  height: 64px;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 40px;
+  font-weight: 200;
+  padding: 0 0 8px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+#add-photo-button:hover {
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.33);
+}
+
+#modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+#add-photo-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  overflow: scroll;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-dialog {
+  width: auto;
+  max-width: 600px;
+  min-width: 350px;
+  min-height: 300px;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.modal-header {
+  position: relative;
+  padding: 10px 20px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.modal-close-button {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 24px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.photo-input-element {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.photo-input-element label {
+  font-weight: 600;
+  flex: 1 75px;
+  margin-right: 10px;
+}
+
+.photo-input-element input,
+.photo-input-element textarea {
+  flex: 6 200px;
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid #aaa;
+}
+
+.photo-input-element textarea {
+  min-height: 64px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px 20px 10px;
+}
+
+.modal-footer button {
+  font-size: 20px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.modal-footer .modal-cancel-button:hover {
+  background-color: #eee;
+}
+
+.modal-footer .modal-accept-button {
+  background-color: #2464f5;
+  color: #fff;
+}
+
+.modal-footer .modal-accept-button:hover {
+  background-color: #5481e4;
+}
