@@ -15,8 +15,13 @@ Then, you can start the server:
 npm start
 ```
 This will start the server running on port 3000 by default.  You can change the port it runs on by setting the `PORT` environment variable.  Once the server is running, you can visit it at [http://localhost:3000](http://localhost:3000)..
+
 Credits for the base of our website go to:
+
 Bhavya Parikh
+
 Mike Zhang
+
 Zechariah DeCleene
+
 Ziyad A Alharbi
