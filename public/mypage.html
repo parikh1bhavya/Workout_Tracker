@@ -1,78 +1,141 @@
 <head>
-  <meta charset="utf-8">
-  <title>Workout Tracker</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
-  <link rel="stylesheet" href="/style.css">
+	<meta charset="utf-8">
+	<title>Workout Tracker</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- Style sheet for the calendar -->
+	<!--  <link rel="stylesheet" href="/calendar.css"> -->
+
 </head>
 
 <header>
-  <center><h1 class="site-title">Workout Tracker</h1></center>
+<center><h1 class="site-title">Workout Tracker</h1></center>
 </header>
 
 <center><nav class="navbar">
-   <ul class="navlist">
-     <li class="navitem"><a href="/">Home</a></li>
-     <li class="navitem"><a href="/mypage.html">My Page</a></li>
-     <li class="navitem"><a href="/account.html">Account</a></li>
-  </ul>
+	<ul class="navlist">
+		<li class="navitem"><a href="/">Home</a></li>
+		<li class="navitem"><a href="/mypage.html">My Page</a></li>
+		<li class="navitem"><a href="/account.html">Account</a></li>
+	</ul>
 </center>
 
-     <main class="home-page">
-       <div class="title-container">
-         <p>
-        <h3>My Page</h3>
+<main class="home-page">
+<div class="title-container">
+	<p>
+	<h3>My Page</h3>
 
-        <br>
+	<br>
 
-        This page will display your account information, exercises, workout routines, and events.
-        <br>
-        <button type="button">Add a routine!</button>
-        <button type="button">Add an exercise!</button>
-        <button type="button">Add an event!</button>
+	This page will display your account information, exercises, workout routines, and events.
+	<br>
+	<button type="button">Add a routine!</button>
+	<button type="button">Add an exercise!</button>
+	<button type="button">Add an event!</button>
 
-        <h4>Exercise 1 - Reps: 20, Muscle Group: Biceps, Intensity: 5</h4><br>
-        <h4>Exercise 2 - Reps: 30, Muscle Group: Abs, Intensity: 10</h4><br>
+	<h4>Exercise 1 - Reps: 20, Muscle Group: Biceps, Intensity: 5</h4><br>
+	<h4>Exercise 2 - Reps: 30, Muscle Group: Abs, Intensity: 10</h4><br>
 
-        <h3>Account information</h3><br>
-        <button type="button">Change Password!</button>
-        <h4>Username: USERNAME</h4><br>
-        <h4>Email: EMAIL</h4><br>
-        <h4>Name: FULL NAME</h4><br>
+	<h3>Account information</h3><br>
+	<button type="button">Change Password!</button>
+	<h4>Username: USERNAME</h4><br>
+	<h4>Email: EMAIL</h4><br>
+	<h4>Name: FULL NAME</h4><br>
+
+	<!-- CALENDAR -->
+
+	<div class="month">
+		<ul>
+			<li class="prev">&#10094;</li>
+			<li class="next">&#10095;</li>
+			<li>
+			August<br>
+			<span style="font-size:18px">2017</span>
+			</li>
+		</ul>
+	</div>
+
+	<ul class="weekdays">
+		<li>Mo</li>
+		<li>Tu</li>
+		<li>We</li>
+		<li>Th</li>
+		<li>Fr</li>
+		<li>Sa</li>
+		<li>Su</li>
+	</ul>
+
+	<ul class="days">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li><span class="active">10</span></li>
+		<li>11</li>
+      <li>12</li>
+      <li>13</li>
+      <li>14</li>
+      <li>15</li>
+      <li>16</li>
+      <li>17</li>
+      <li>18</li>
+      <li>19</li>
+      <li>20</li>
+      <li>21</li>
+      <li>22</li>
+      <li>23</li>
+      <li>24</li>
+      <li>25</li>
+      <li>26</li>
+      <li>27</li>
+      <li>28</li>
+      <li>29</li>
+      <li>30</li>
+	</ul>
+
+</div>
+</main>
 
 
 
 <!--
-        <h4>Top Gym Member Results</h4>
-        try to beat them! <br>
-        <p>
-          <ul class="weeks-grid">
-                Bella
-           <li>Bench Press 230</li>
-           <li>Deadlift 322</li>
-           <li>Running 11</li>
-          </ul>
-          <ul class="weeks-grid">
-                Liam
-           <li>Bench Press 228</li>
-           <li>Deadlift 319</li>
-           <li>Running 8</li>
-          </ul>
-          <ul class="weeks-grid">
-                Noah
-           <li>Bench Press 220</li>
-           <li>Deadlift 315</li>
-           <li>Running 7</li>
-          </ul>
-          <ul class="weeks-grid">
-                Lucy
-           <li>Bench Press 205</li>
-           <li>Deadlift 298</li>
-           <li>Running 5</li>
-          </ul>
-        </p>
-      </p>
-       </div>
+<h4>Top Gym Member Results</h4>
+try to beat them! <br>
+<p>
+<ul class="weeks-grid">
+	Bella
+	<li>Bench Press 230</li>
+	<li>Deadlift 322</li>
+	<li>Running 11</li>
+</ul>
+<ul class="weeks-grid">
+	Liam
+	<li>Bench Press 228</li>
+	<li>Deadlift 319</li>
+	<li>Running 8</li>
+</ul>
+<ul class="weeks-grid">
+	Noah
+	<li>Bench Press 220</li>
+	<li>Deadlift 315</li>
+	<li>Running 7</li>
+</ul>
+<ul class="weeks-grid">
+	Lucy
+	<li>Bench Press 205</li>
+	<li>Deadlift 298</li>
+	<li>Running 5</li>
+</ul>
+</p>
+</p>
+	   </div>
 
-     </main>
--->
+	   </main>
+	   -->
