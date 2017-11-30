@@ -20,6 +20,17 @@ button {
     width: 25%;
 }
 
+/* calendar button styles*/
+button.calBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 15px;
+    margin: 18px 18px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
 /* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
@@ -324,7 +335,8 @@ a:hover {
   background-color: #5481e4;
 }
 
-/* CALENDAR CSS */
+
+/*********************** CALENDAR CSS ************************/
 .month {
     padding: 0;
     width: 100%;
@@ -393,4 +405,16 @@ a:hover {
     padding: 5px;
     background: #1abc9c;
     color: white !important
+}
+
+form { display: inline; }
+
+input[type=submit] {
+   background-color: #4CAF50;
+   color: white;
+   padding: 15px 15px;
+   margin: 18px 18px;
+   border: none;
+   cursor: pointer;
+   width: 10%;
 }
