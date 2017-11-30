@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 var peopleData = require('./peopleData');
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 2000;
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
