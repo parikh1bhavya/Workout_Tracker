@@ -24,8 +24,8 @@ button {
 button.calBtn {
     background-color: #4CAF50;
     color: white;
-    padding: 15px 15px;
-    margin: 18px 18px;
+    padding: 18px 18px;
+    margin: 20px 20px;
     border: none;
     cursor: pointer;
     width: 10%;
@@ -97,7 +97,7 @@ a:hover {
 }
 
 .weeks-grid {
-  display: inline-block;;
+  display: inline-block;
 }
 
 .navbar {
@@ -412,8 +412,8 @@ form { display: inline; }
 input[type=submit] {
    background-color: #4CAF50;
    color: white;
-   padding: 15px 15px;
-   margin: 18px 18px;
+   padding: 17px 17px;
+   margin: 20px 20px;
    border: none;
    cursor: pointer;
    width: 10%;
