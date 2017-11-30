@@ -378,7 +378,7 @@ a:hover {
 
 .weekdays li {
     display: inline-block;
-    width: 13.6%;
+    width: 11%;
     color: #666;
     text-align: center;
 }
@@ -412,8 +412,8 @@ form { display: inline; }
 input[type=submit] {
    background-color: #4CAF50;
    color: white;
-   padding: 17px 17px;
-   margin: 20px 20px;
+   padding: 20px 20px;
+   margin: 5px;
    border: none;
    cursor: pointer;
    width: 10%;
