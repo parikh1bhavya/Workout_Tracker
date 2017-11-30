@@ -27,7 +27,7 @@ Zechariah DeCleene
 Ziyad A Alharbi
 
 
-The authors are :
+The authors for this website are :
 
 Bhavya Parikh
 
