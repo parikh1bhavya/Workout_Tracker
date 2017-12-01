@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+ssh://git@github.com/OSU-CS290-Sp2017/final-project-gainstrain-w531/commits/master"
   },
+<<<<<<< HEAD
   "authors": "Bhavya Parikh, Trent Vasquez, Trung Huynh",
+=======
+  "authors": "Bhavya Parikh,Trent Vasquez, Trung Huynh",
+>>>>>>> f78acd3053cca7ef0c9fe94668a0d4bbe0cec232
   "license": "none",
   "bugs": {
     "url": "https://github.com/OSU-CS290-Sp2017/express-dynamic-content/issues"

@@ -25,3 +25,14 @@ Mike Zhang
 Zechariah DeCleene
 
 Ziyad A Alharbi
+
+
+The authors for this website are :
+
+Bhavya Parikh
+
+Trent Vasquez
+
+Trung Huynh
+
+
