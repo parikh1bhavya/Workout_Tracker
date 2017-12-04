@@ -20,10 +20,11 @@
   },
   "homepage": "https://github.com/OSU-CS290-Sp2017/final-project-gainstrain-w531/blob/master/README.md",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.18.2",
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
     "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
     "mysql": "^2.15.0"
   }
 }

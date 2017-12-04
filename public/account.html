@@ -4,6 +4,9 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
   <link rel="stylesheet" href="/style.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+  </script>
+    
 </head>
 
 <header>
@@ -23,24 +26,23 @@
 
    <form action="/login.html"><input type="submit" value="Login!"/></form>
 
-
-<form action="/signup.html">
+<form action="/account.html" method="post">
   <div class="container">
 
     <p><label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="usrname" required></p>
+    <input type="text" placeholder="Enter Username" id="usrname" required></p>
 
     <p><label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required></p>
+    <input type="password" placeholder="Enter Password" id="psw" required></p>
 
     <p><label><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="lname" required></p>
+    <input type="text" placeholder="Enter Email" id="lname" required></p>
     
     <div class="clearfix">
       <button type="button"  class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+      <button type="submit" id="signupbtn">Sign Up</button>
     </div>
   </div>
 </div>
-</main>
 </form>
+</main>

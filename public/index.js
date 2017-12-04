@@ -30,6 +30,36 @@ function closeAddPhotoModal() {
 
 }
 
+/*
+ *
+ *
+ *********************************************************************
+ *
+ *
+ */
+
+function addUser(){
+	var user = document.getElementById(usrname).value;
+	var pass = document.getElementById(psw).value;
+	var email = document.getElementById(email).value;
+	
+	console.log("made it inside a function");
+
+}
+
+
+
+
+/*
+ *
+ *
+ *********************************************************************
+ *
+ *
+ */
+
+
+
 
 /*
  * This function clears the values of all input elements in the photo modal.
@@ -158,5 +188,10 @@ window.addEventListener('DOMContentLoaded', function (event) {
   if (modalAcceptButton) {
     modalAcceptButton.addEventListener('click', insertNewPhoto);
   }
+
+  var signup = document.querySelector('#signupbtn');
+    if(signup){
+      signup.addEventListener('click', addUser);
+    }
 
 });

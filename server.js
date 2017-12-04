@@ -16,6 +16,7 @@ var connection = mysql.createConnection({
 	database: 'cs340_vasquezt'
 });
 
+
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
@@ -49,17 +50,20 @@ app.get('/people/:person', function (req, res, next) {
   }
 });
 
-app.post('/signup', function(req, res, next){
-  console.log("about to attempt to add a new account: ", req.params);
-  var split = document.location.href.replace('?', '').replace('&', '=').split('=')
-
-  var user = split[1];
-  var pass = split[3];
-  var email = split[5];
+app.post('/account.html', function(req, res){
+  console.log("about to attempt to add a new account: ");
+  var user = req.body.user;
+  var pass = req.body.pass;
+  var email = req.body.email;
   var salt = "123";
+  console.log(user);
+
   if(connection){
     var query = connection.query('INSERT INTO Users (username, hashed_pass, salt, email) VALUES (${user}, ${pass}, ${salt}, ${email}', post, function(error, results, fields){
-      if(error) throw error;
+      if(error){
+	      console.log("about to throw error");
+	      throw error;
+      }	      
     });
   }
 });
